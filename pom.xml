@@ -204,6 +204,7 @@
             <version>1.9.0</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <modules>
@@ -495,4 +496,5 @@
             </reporting>
         </profile>
     </profiles>
+
 </project>
