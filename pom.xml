@@ -420,20 +420,6 @@
                 </plugins>
             </build>
             <reporting>
-		<dependencyManagement>
-		   <dependency>
-                           <groupId>net.sourceforge.cobertura</groupId>
-                           <artifactId>cobertura</artifactId>
-                           <version>2.1.1</version>
-                           <scope>test</scope>
-                           <exclusions>
-                                  <exclusion>
-                                        <groupId>ch.qos.logback</groupId>
-                                        <artifactId>logback-classic</artifactId>
-                                  </exclusion>
-                           </exclusions>
-                    </dependency>
-		</dependencyManagement>
                 <plugins>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
@@ -445,6 +431,18 @@
                                 <format>xml</format>
                             </formats>
                         </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>ch.qos.logback</groupId>
+                        <artifactId>logback-classic</artifactId>
+                        <version>1.1.2</version>
+                    </dependency>
+                    <dependency>
+                        <groupId>ch.qos.logback</groupId>
+                        <artifactId>logback-core</artifactId>
+                        <version>1.1.2</version>
+                    </dependency>
+                </dependencies>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
