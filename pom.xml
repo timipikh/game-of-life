@@ -431,18 +431,18 @@
                                 <format>xml</format>
                             </formats>
                         </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>ch.qos.logback</groupId>
-                        <artifactId>logback-classic</artifactId>
-                        <version>1.1.2</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>ch.qos.logback</groupId>
-                        <artifactId>logback-core</artifactId>
-                        <version>1.1.2</version>
-                    </dependency>
-                </dependencies>
+                	<dependencies>
+                    	    <dependency>
+                            <groupId>ch.qos.logback</groupId>
+                            <artifactId>logback-classic</artifactId>
+                            <version>1.1.2</version>
+                            </dependency>
+                            <dependency>
+                              <groupId>ch.qos.logback</groupId>
+                              <artifactId>logback-core</artifactId>
+                              <version>1.1.2</version>
+                             </dependency>
+                        </dependencies>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
