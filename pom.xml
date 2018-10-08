@@ -420,6 +420,7 @@
                 </plugins>
             </build>
             <reporting>
+		<dependencyManagement>
 		   <dependency>
                            <groupId>net.sourceforge.cobertura</groupId>
                            <artifactId>cobertura</artifactId>
@@ -432,6 +433,7 @@
                                   </exclusion>
                            </exclusions>
                     </dependency>
+		</dependencyManagement>
                 <plugins>
                     <plugin>
                         <groupId>org.codehaus.mojo</groupId>
