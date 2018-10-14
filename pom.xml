@@ -145,8 +145,7 @@
 
 	 <plugin>
  		<groupId>com.atlassian.maven.plugins</groupId>
- 		<artifactId>maven-clover2-plugin</artifactId>
- 		<version>3.0.4</version>
+ 		<artifactId>clover-maven-plugin</artifactId>
 		 <configuration>
  			<includesTestSourceRoots>false</includesTestSourceRoots>
  			<generateXml>true</generateXml>
